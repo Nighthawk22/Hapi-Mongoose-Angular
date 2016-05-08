@@ -1,36 +1,75 @@
 <!doctype html>
-<html lang="en" data-ng-app="demo">
+<html class="no-js" lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<title>Hapi Mongoose Angular</title>
-	<link rel="stylesheet" href="less/css/bootstrap.css">
-	<link rel="stylesheet" href="less/css/custom.css">
-	<link rel="stylesheet" href="less/css/growl.css">
-	<style>
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-      }
-    </style>
-	<link href="less/css/bootstrap.css" rel="stylesheet">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foundation | Welcome</title>
+  <link rel="stylesheet" href="bower_components/foundation-sites/dist/foundation.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div growl></div>
-	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<a class="brand" href="https://www.linkedin.com/pub/gaurav-gupta/83/837/657">Visit Profile</a>
-			</div>
-		</div>
-	</div>
 
-	<div data-ng-view class="container"></div>
-	<script src="bower_components/angular/angular.js"></script>
-	<script src="bower_components/angular-route/angular-route.js"></script>
-	<script src="bower_components/angular-resource/angular-resource.js"></script>
-	<script src="less/js/growl.js"></script>
-	<script src="app/app.js"></script>
-	<script src="app/userCtrl.js"></script>
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="menu">
+        <li class="menu-text">Blog</li>
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row medium-8 large-7 columns">
+    <div class="blog-post">
+      <h3>Awesome blog post title <small>3/6/2015</small></h3>
+      <img class="thumbnail" src="http://placehold.it/850x350">
+      <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+      <div class="callout">
+        <ul class="menu simple">
+          <li><a href="#">Author: Mike Mikers</a></li>
+          <li><a href="#">Comments: 3</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="blog-post">
+      <h3>Awesome blog post title <small>3/6/2015</small></h3>
+      <img class="thumbnail" src="http://placehold.it/850x350">
+      <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+      <div class="callout">
+        <ul class="menu simple">
+          <li><a href="#">Author: Mike Mikers</a></li>
+          <li><a href="#">Comments: 3</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="blog-post">
+      <h3>Awesome blog post title <small>3/6/2015</small></h3>
+      <img class="thumbnail" src="http://placehold.it/850x350">
+      <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+      <div class="callout">
+        <ul class="menu simple">
+          <li><a href="#">Author: Mike Mikers</a></li>
+          <li><a href="#">Comments: 3</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="blog-post">
+      <h3>Awesome blog post title <small>3/6/2015</small></h3>
+      <img class="thumbnail" src="http://placehold.it/850x350">
+      <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+      <div class="callout">
+        <ul class="menu simple">
+          <li><a href="#">Author: Mike Mikers</a></li>
+          <li><a href="#">Comments: 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/foundation-sites/dist/foundation.js"></script>
+  <script>
+  $(document).foundation();
+  </script>
 </body>
 </html>
